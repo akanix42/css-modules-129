@@ -1,0 +1,9 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.foo {
+  composes: header from 'meteor/nathantreid:ui/styles/typography.m.css';
+  color: red;
+}
